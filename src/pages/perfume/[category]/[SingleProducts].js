@@ -1,15 +1,14 @@
 import { MostViewed } from 'components/shared/MostViewed/MostViewed';
 import { ProductDetails } from 'components/Product/ProductDetails/ProductDetails';
-import { useRouter } from 'next/router';
 
 import products from '../../../data/product/product'
 import { ProductsCarousel } from 'components/Product/Products/ProductsCarousel';
 const { PublicLayout } = require('layout/PublicLayout');
-import { useRouter } from "next/router";
 import {useTranslation} from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-const { PublicLayout } = require('layout/PublicLayout');
+
+
 export const getServerSideProps = async ({ locale }) => ({
   props: {
     ...(await serverSideTranslations(locale, ['home'])),

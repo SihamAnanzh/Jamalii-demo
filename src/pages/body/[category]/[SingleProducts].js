@@ -17,8 +17,7 @@ export const getServerSideProps = async ({ locale }) => ({
 
 
 const SingleProductPage = () => {
-  const router =useRouter()
-  let { t } = useTranslation();
+
   let router =useRouter()
   let { t } = useTranslation();
   let ca1=t('home:hd-nav-1')

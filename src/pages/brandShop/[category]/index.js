@@ -1,42 +1,10 @@
-// import { MostViewed } from 'components/shared/MostViewed/MostViewed';
-// import { ProductDetails } from 'components/Product/ProductDetails/ProductDetails';
-// import { useRouter } from 'next/router';
-
-// const { PublicLayout } = require('layout/PublicLayout');
-
-
-// const category = () => {
-//   const router =useRouter()
-  
-//   const breadcrumbsData = [
-//     {
-//       label: 'Home',
-//       path: '/',
-//     },
-
-//     {
-//       label: `${router.query.category}`,
-//       path: `${router.query.category}`,
-//     },
-//   ];
-
-//   return (
-//     <PublicLayout breadcrumb={breadcrumbsData} breadcrumbTitle='Proudcts'>
-//       <ProductDetails />
-//       <MostViewed />
-      
-//     </PublicLayout>
-//   );
-// };
-// export default category
 import { MostViewed } from 'components/shared/MostViewed/MostViewed';
 import { ProductDetails } from 'components/Product/ProductDetails/ProductDetails';
-import { useRouter } from 'next/router';
 
 const { PublicLayout } = require('layout/PublicLayout');
-
 import {useTranslation} from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useRouter } from "next/router";
 
 
 export const getServerSideProps = async ({ locale }) => ({
@@ -46,7 +14,6 @@ export const getServerSideProps = async ({ locale }) => ({
 })
 
 
-
 const category = () => {
   let router =useRouter()
   let { t } = useTranslation();
@@ -54,9 +21,9 @@ const category = () => {
   let ca1=t('home:hd-nav-1')
   let ca2=t('home:hd-nav-2')
   let ca3=t('home:hd-nav-3')
-  let ca4=t('home:hd-nav-5')
+  let ca4=t('home:hd-nva-4')
   let home=t('body:m2')
-  
+  let shop=t('body:pd10')
   //Banner
   let bn1=t('home:banner-1')
   let bnBtn=t('home:banner-btn')
@@ -187,9 +154,10 @@ let subNav={
   catS2,
   catS3,
 }
+  
   const breadcrumbsData = [
     {
-      label: headerData.home,
+      label: home,
       path: '/',
     },
 
@@ -200,10 +168,16 @@ let subNav={
   ];
 
   return (
-    <PublicLayout  subNav={subNav}breadcrumb={breadcrumbsData} breadcrumbTitle={ca4} trendingData={trendingData} headerData={headerData} footerDta={footerDta}>
-      <ProductDetails footerDta={footerDta}  trendingData={trendingData}  headerData={headerData} footerDta={footerDta} trendingData={trendingData}/>
-      <MostViewed mostViewedData={mostViewedData}  headerData={headerData} footerDta={footerDta} trendingData={trendingData}/>
-      </PublicLayout>
+    // <PublicLayout subNav={subNav} breadcrumb={breadcrumbsData} breadcrumbTitle={shop} trendingData={trendingData}  headerData={headerData} footerDta={footerDta}>
+    //   <ProductDetails trendingData={trendingData}  headerData={headerData} footerDta={footerDta}  c/>
+    //   <MostViewed  mostViewedData={mostViewedData} trendingData={trendingData} headerData={headerData} footerDta={footerDta}  categoryData={categoryData}/>
+    
+   
+    // </PublicLayout>
+    <PublicLayout  subNav={subNav}breadcrumb={breadcrumbsData} breadcrumbTitle={mostViewedData.m4} trendingData={trendingData} headerData={headerData} footerDta={footerDta}>
+    <ProductDetails footerDta={footerDta}  trendingData={trendingData}  headerData={headerData} footerDta={footerDta} trendingData={trendingData}/>
+    <MostViewed mostViewedData={mostViewedData}  headerData={headerData} footerDta={footerDta} trendingData={trendingData}/>
+    </PublicLayout>
   );
 };
 export default category
