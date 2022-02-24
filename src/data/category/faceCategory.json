@@ -1,0 +1,35 @@
+[
+    {
+      "categoryId": "lips",
+      "name": "Lips",
+      "image": "/assets/img/top-categories-img2.jpg",
+      "path":"face/lips"  ,
+      "id":"12132klj2322321"  },
+    {
+      "categoryId": "lash",
+      "name": "Lash",
+      "image": "/assets/img/top-categories-img2.jpg",
+      "path":"face/lash"    },
+    {
+      "categoryId": "moisturizers",
+      "name": "Moisturizers",
+      "image": "/assets/img/top-categories-img2.jpg",
+      "path":"face/moisturizers"
+    },
+    {
+      "categoryId": "makeup",
+      "name": "Make Up",
+      "image": "/assets/img/top-categories-img2.jpg",
+      "path":"face/makeup"
+    },
+    {
+      "categoryId": "lotion",
+      "name": "Lotion",
+      "image": "/assets/img/top-categories-img2.jpg",
+      "path":"face/lotion"    },
+    {
+      "categoryId": "hair",
+      "name": "Hair",
+      "image": "/assets/img/top-categories-img2.jpg",
+      "path":"face/hair"    }
+  ]

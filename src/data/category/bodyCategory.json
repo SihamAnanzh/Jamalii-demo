@@ -1,0 +1,39 @@
+[
+    {
+      "categoryId": "skin Care",
+      "name": "Skin Care",
+      "image": "/assets/img/top-categories-img3.jpg",
+      "path":"body/skinCare" 
+    },
+    {
+      "categoryId": "scrubs",
+      "name": "Scrubs",
+      "image": "/assets/img/top-categories-img3.jpg",
+      "path":"body/scrubs" 
+
+    },
+    {
+      "categoryId": "moisturizers",
+      "name": "Moisturizers",
+      "image": "/assets/img/top-categories-img3.jpg",
+      "path":"body/moisturizers" 
+    },
+    {
+      "categoryId": "lotion",
+      "name": "Lotion",
+      "image": "/assets/img/top-categories-img3.jpg",
+      "path":"body/lotion" 
+    },
+    {
+      "categoryId": "skin",
+      "name": "Skin",
+      "image": "/assets/img/top-categories-img3.jpg",
+      "path":"body/skin" 
+    },
+    {
+      "categoryId": "hair",
+      "name": "Hair",
+      "image": "/assets/img/top-categories-img3.jpg",
+      "path":"body/hair" 
+    }
+  ]

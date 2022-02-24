@@ -1,3 +1,8 @@
 module.exports = {
-  reactStrictMode: true,
-}
+  reactStrictMode:true,
+  i18n: {
+    defaultLocale: "EN",
+    locales: ["EN","AR"]
+  }
+
+};

@@ -1,0 +1,63 @@
+[
+  {
+    "title": "About",
+    "navLinks": [
+      {
+        "name": "About us",
+        "path": "/about"
+      },
+    
+      {
+        "name": "Blog",
+        "path": "/blog"
+      },
+      {
+        "name": "FAQ",
+        "path": "/faq"
+      }
+ 
+    ]
+  },
+  {
+    "title": "Categories",
+    "navLinks": [
+      {
+        "name": "Face",
+        "path": "/face"
+      },
+      {
+        "name": "Body",
+        "path": "/body"
+      },
+      {
+        "name": "Perfume",
+        "path": "/perfume"
+      }
+     
+    ]
+  },
+  {
+    "title": "Brands",
+    "navLinks": [
+      {
+        "name": "CHANEL",
+        "path":"brandShop/chanel"   
+      },
+      {
+        "name": "Maybelline New York",
+
+        "path":"brandShop/maybellineNewYork" 
+
+      },
+     
+      {
+        "name": "Dior",
+        "path":"brandShop/dior" 
+      },
+      {
+        "name": "Guerlain",
+        "path":"brandShop/guerlain" 
+      }
+    ]
+  }
+]
