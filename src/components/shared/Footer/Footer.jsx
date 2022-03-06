@@ -120,7 +120,7 @@ export const Footer = ({footerDta}) => {
                 width:'200px',
                 background:'#fff',
                 zIndex:"10"
-              }} src="../../assets\img\Payment-Logos.png" alt="" />
+              }} src="../../assets\img\Payment-Logos copy big.png" alt="" />
             </div>
           </div>
           <div className='footer-nav'>

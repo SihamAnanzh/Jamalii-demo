@@ -68,6 +68,12 @@
 
 .box-field .form-control{
 font-family: DinLihgt;
+
+}
+
+.box-field .form-control::placeholder{
+    font-family: DinRegular;
+    color: #ccc;
 }
 .rtl{
     direction: rtl;
@@ -113,7 +119,9 @@ font-family: DinLihgt;
     justify-content: flex-start;
     align-items: flex-start;
     text-align: right;
-
+    .main-text{
+        font-family: DinRegular;
+    }
      & .discount-info{
         display: flex;
        flex-direction: column;
@@ -121,7 +129,7 @@ font-family: DinLihgt;
         align-items: flex-start;
         text-align: right;
         span {
-            font-family: DinLihgt;
+            font-family: DinRegular;
         }
         p{
             font-family: DinRegular;
@@ -150,9 +158,22 @@ font-family: DinLihgt;
 }
     .rtl .footer-top__social{
         text-align: right;
+        font-family: DinRegular;
+
     }
     .rtl .footer{
         text-align: right;
+        font-family: DinRegular;
+
+        .footer-nav__col-title{
+            font-family: DinRegular;
+
+        }
+
+        a{
+            font-family: DinRegular;
+
+        }
     }
 
     .rtl .footer-nav__col ul li a:before {
@@ -160,7 +181,6 @@ font-family: DinLihgt;
         right: -10px;
         top: 50%;
         transform: translateY(-50%);
-      font-family: DinRegular;
         content: "_";
         color: #bbb;
         font-size: 8px;
