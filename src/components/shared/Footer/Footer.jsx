@@ -49,19 +49,23 @@ export const Footer = ({footerDta}) => {
       "title": `${footerDta.footBd1}`,
       "navLinks": [
         {
-          "name":`${footerDta.footBd2}`,
-          "path":"brandShop/chanel"   
+          "name":`Flormar`,
+          "path":"brandShop/floramr"   
         },
         {
-          "name": `${footerDta.footBd3}`,
+          "name":'Huda Beauty',
   
-          "path":"brandShop/maybellineNewYork" 
+          "path":"brandShop/hudabeauty" 
   
         },
        
         {
-          "name":`${footerDta.footBd4}`,
-          "path":"brandShop/dior" 
+          "name":'Browns',
+          "path":"brandShop/browns" 
+        },
+        {
+          "name":'Essence',
+          "path":"brandShop/essence" 
         },
 
   

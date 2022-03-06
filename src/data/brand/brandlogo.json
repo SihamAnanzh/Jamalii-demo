@@ -1,38 +1,32 @@
 [
   {
     "id": 1,
-    "logoSrc": "/assets/img/main-logo1.svg",
-    "URL": "/brandShop/chanel",
-    "name":"brand name"
+    "logoSrc": "/assets/img/flormar-logo-dark.svg",
+    "URL": "/brandShop/flormar",
+    "name":"flormar"
   
   },
   {
     "id": 2,
-    "logoSrc": "/assets/img/main-logo2.svg",
-    "URL": "/brandShop/dior",
-    "name":"brand name"
+    "logoSrc": "/assets/img/logo-essence-black.png",
+    "URL": "/brandShop/essence",
+    "name":"essence"
 
    
   },
   {
     "id": 3,
-    "logoSrc": "/assets/img/main-logo3.svg",
-    "URL": "/brandShop/maybellineNewYork",
-    "name":"brand name"
+    "logoSrc": "/assets/img/huda.svg",
+    "URL": "/brandShop/hudabeauty",
+    "name":"hudabeauty"
     
   },
   {
     "id": 4,
-    "logoSrc": "/assets/img/main-logo4.svg",
-    "URL": "/brandShop/guerlain",
-    "name":"brand name"
+    "logoSrc": "/assets/img/browns-main-logo.svg",
+    "URL": "/brandShop/browns",
+    "name":"browns"
   
-  },
-  {
-    "id": 5,
-    "logoSrc": "/assets/img/main-logo5.svg",
-    "URL": "/brandShop/guerlain",
-    "name":"brand name"
-    
   }
+
 ]

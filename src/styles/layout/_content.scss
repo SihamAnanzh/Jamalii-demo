@@ -565,9 +565,9 @@ h6,
   align-items: center;
   padding-bottom: 130px;
 
-  img {
-    margin: 0 56px;
-  }
+  // img {
+  //   margin: 0 56px;
+  // }
 }
 
 // discount
@@ -4794,9 +4794,9 @@ input[type="search"]::-webkit-search-results-decoration {
     padding-bottom: 110px;
   }
 
-  .main-logos img {
-    margin: 0 49px;
-  }
+  // .main-logos img {
+  //   margin: 0 49px;
+  // }
 
   .advantages,
   .top-categories,
@@ -5094,9 +5094,9 @@ input[type="search"]::-webkit-search-results-decoration {
   .main-logos {
     padding-bottom: 110px;
 
-    img {
-      max-width: 85px;
-    }
+    // img {
+    //   max-width: 85px;
+    // }
   }
 
   .discount-info {
@@ -5617,9 +5617,31 @@ input[type="search"]::-webkit-search-results-decoration {
   }
 }
 
+
+
+.brand-logo-img{
+  width:280px;
+  height:120px;
+  img{
+    width: 220px;
+    height: 100px;
+    max-width: 180px;
+    padding-top: 10px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .wishlist .cart-table__col {
     width: 16%;
+  }
+
+  .brand-logo-img{
+width: 120px;
+height: 120px;
+img{
+  width: 100px;
+  height: 100px;
+}
   }
 
   .scroll-off {
@@ -5684,7 +5706,7 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-right: 15px;
     width: 100%;
     text-align: center;
-    margin-bottom: -1px;
+    margin-bottom: 15px;
   }
 
   .products-items {
